@@ -44,5 +44,6 @@ class Game
   end
 end
 
+
 game = Game.new([HumanPlayer.new("O"), HumanPlayer.new("X")])
 game.play
